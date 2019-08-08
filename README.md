@@ -8,4 +8,4 @@ Development of a virtual world application for the rehabilitation of speech for 
 
 -> Using Unity to design a virtual world of three different levels, applying animations for assets
 
--> Locally saving data of the amount of times a user correctly repeats a word
+-> Saving data
