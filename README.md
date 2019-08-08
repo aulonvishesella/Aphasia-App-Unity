@@ -6,6 +6,6 @@ Development of a virtual world application for the rehabilitation of speech for 
 
 -> Writing scripts in C# to implement voice recongition, audio , levels, scoring system, record system, character movement, interactions with other virtual people in the world and so on
 
--> Using Unity to design a virtual world of three different levels, applying animations for assets
+-> Using Unity to design a virtual world of three different virtual world levels
 
 -> Saving data
