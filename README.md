@@ -10,6 +10,3 @@ Development of a virtual world application for the rehabilitation of speech for 
 
 -> Saving data
 
-# Application Screenshot Example
-
-![Image 10-08-2019 at 13 57](https://user-images.githubusercontent.com/37848112/62822113-ea1fd300-bb76-11e9-9a1a-485dc96b564f.jpg)
