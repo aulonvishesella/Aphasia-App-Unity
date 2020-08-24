@@ -8,5 +8,5 @@ Development of a virtual world application for the rehabilitation of speech for 
 
 -> GUI and in-game designs using Unity
 
--> Saving data
+-> Local storage
 
