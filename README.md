@@ -16,9 +16,9 @@ The virtual world was developed using Unity, with scripts written in C#.
 * To allow the user to transition to different GUI screens
 
 -> Design:
-* Game Design
-* GUI Design
-* Avatar Design
+* Game Design (Unity)
+* GUI Design (Unity)
+* Avatar Design (Adobe Fuse CC)
 
 
 
