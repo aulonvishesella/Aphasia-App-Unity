@@ -4,14 +4,15 @@ Development of a virtual world application for the rehabilitation of speech for 
 
 # What I learnt
 
--> Writing scripts in C# to:
-* Recognise human speech (mainly when a user wishes to practice a word)
-* Play Audio, Mute Audio, Add Audio, Delete Audio
-* Proceed and backtrack to different levels 
-* Track current and previous scores(local storage)
-* Allow user to interact with different avatars in the world
-* Allow user to move the avatar around the world
-* Transition to different GUI screens
+-> Writing scripts in C# for:
+* Speech Recogniton (mainly when a user wishes to practice a word)
+* Avatar Animations
+* Audio (to play,add,delete and mute audio)
+* Levels (proceed to a level and backtrack to previous level) 
+* Score Tracking (local storage)
+* The ability to allow users to interact with different avatars in the world
+* Avatar movement
+* GUI screen transitions
 
 -> Design:
 * Level Design
