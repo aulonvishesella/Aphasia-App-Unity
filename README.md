@@ -6,7 +6,7 @@ Development of a virtual world application for the rehabilitation of speech for 
 
 -> Writing scripts in C# for:
 * Speech Recognition (mainly when a user wishes to practice a word)
-* In-Game Audio(play,mute,delete)
+* In-Game Audio(play,mute,add,delete)
 * Levels (proceed and trak back to different levels)
 * Tracking current and previous scores(local storage)
 * Interacting with different avatars in the map
