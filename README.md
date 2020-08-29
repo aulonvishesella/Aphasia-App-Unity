@@ -1,6 +1,7 @@
 # Virtual World Application For Rehabiliation Of Speech
 
-Development of a virtual world application for the rehabilitation of speech for people with aphasia. The game engine used was Unity with scripts written in C#.
+This project was a funded research project, aimed at developing a virtual world for rehabilitation of speech for noun therapy.
+Virtual world was developed using Unity, with scripts written in C#.
 
 # What I learnt
 
@@ -15,8 +16,9 @@ Development of a virtual world application for the rehabilitation of speech for 
 * To allow the user to transition to different GUI screens
 
 -> Design:
-* Level Design
+* Game Design
 * GUI Design
+* Avatar Design
 
 
 
