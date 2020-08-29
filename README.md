@@ -10,7 +10,7 @@ The virtual world was developed using Unity, with scripts written in C#.
 * For avatar animations
 * To play,add,delete and mute audio 
 * For different levels; can proceed to a level as well as backtrack to previous levels
-* To track scores. Stored Locally.
+* To locally store a record of previous scores and current scorres
 * To allow users to interact with different avatars in the world
 * For avatar movement
 * To allow the user to transition to different GUI screens
