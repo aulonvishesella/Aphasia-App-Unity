@@ -1,6 +1,6 @@
 # Virtual World Application For Rehabiliation Of Speech
 
-This project was a funded research project, aimed at developing a virtual world for rehabilitation of speech focusing noun therapy.
+This project was a funded research project, aimed at developing a virtual world for rehabiliation of speech focusing noun therapy.
 The virtual world was developed using Unity, with scripts written in C#.
 
 # What I learnt
