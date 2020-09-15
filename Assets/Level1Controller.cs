@@ -79,16 +79,13 @@ public class Level1Controller : MonoBehaviour
         jumperSpeechTextBubble.SetActive(true);
         milkSpeechTextBubble.SetActive(true);
 
-
-
-        //code inspired from h/ttps://www.youtube.com/watch?v=29vyEOgsW8s 
+       //voice recognition
         recongnitionOfWords = new KeywordRecognizer(arrayOfWOrds.Keys.ToArray());
         recongnitionOfWords.OnPhraseRecognized += RecognizedSpeech;
         recongnitionOfWords.Start();
 
     }
 
-    //code inspired from h/ttps://www.youtube.com/watch?v=29vyEOgsW8s 
     private void RecognizedSpeech(PhraseRecognizedEventArgs speech)
     {
         //this allows the speech recongiser to actually recognise speech from an invoke.
@@ -196,7 +193,7 @@ public class Level1Controller : MonoBehaviour
 
     }
 
-   private void updateit()
+   private void update1()
     {
         FindObjectOfType<ObjectieText>().returnText().text = ObjectiveData.Objective.ToString();
     
@@ -221,7 +218,7 @@ public class Level1Controller : MonoBehaviour
     {
 
         
-        updateit();
+        update1();
         update2();
         update3();
         update4();
@@ -241,15 +238,6 @@ public class Level1Controller : MonoBehaviour
             coffeeSpeechTextBubble.SetActive(true);
             Text.color = Color.black;
             FindObjectOfType<objectiveController>().showImage("CoffeeObjective");
-            //if the user has not aimated -> animate.
-          //  if (animationcomplete == false)
-            //{
-              //  FindObjectOfType<LonnyTalk>().LonnySpeak();
-               // animationcomplete = true;
-            //}
-          
-
-                      //make sure that the audio voice has not played
             if (alreadyPlayedCoffee == false)
             {
                 //play the audio voice Coffee
