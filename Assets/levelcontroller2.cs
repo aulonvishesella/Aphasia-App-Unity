@@ -87,7 +87,7 @@ public class levelcontroller2: MonoBehaviour
 
 
 
-        //code taken inspired from  h/ttps://www.youtube.com/watch?v=29vyEOgsW8s
+     
         recognitionOfWord = new KeywordRecognizer(arrayOfWords.Keys.ToArray());
         recognitionOfWord.OnPhraseRecognized += RecognizedSpeech;
         recognitionOfWord.Start();
@@ -96,8 +96,7 @@ public class levelcontroller2: MonoBehaviour
 
     private void RecognizedSpeech(PhraseRecognizedEventArgs speech)
     {
-        //code inspired from h/ttps://www.youtube.com/watch?v=29vyEOgsW8s
-        //this allows the speech recongiser to actually recognise speech from an invoke.
+       
         arrayOfWords[speech.text].Invoke();
     }
 
