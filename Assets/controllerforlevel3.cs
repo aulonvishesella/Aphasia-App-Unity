@@ -89,10 +89,6 @@ public class controllerforlevel3 : MonoBehaviour
         playAudioButton.SetActive(false);
         showImageButton.SetActive(false);
 
-
-
-
-        //code inspired from h/ttps://www.youtube.com/watch?v=29vyEOgsW8s 
         recognitionOfWords = new KeywordRecognizer(wordArray.Keys.ToArray());
         recognitionOfWords.OnPhraseRecognized += RecognizedSpeech;
         recognitionOfWords.Start();
@@ -102,8 +98,7 @@ public class controllerforlevel3 : MonoBehaviour
     private void RecognizedSpeech(PhraseRecognizedEventArgs speech)
     {
 
-        //code inspired from h/ttps://www.youtube.com/watch?v=29vyEOgsW8s 
-        //allows the speech recongiser to recognise speech through invoke
+
         wordArray[speech.text].Invoke();
     }
 
